@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background: rgb(81, 124, 155);
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(31, 101, 151);
+}
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background: #fff;
+}
+#panel-top{
+    height: 100px;
+    width: 100%;
+    background-color: #3a7681;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30%;
+}
+.ele{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    color: #77cddc;
+    font-weight: 100;;
+}
+.ele h2{
+    color: #77cddc;
+    font-weight: 500;;
+}
+.box{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #000;
+}
+#panel-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 10px;
+}
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    color: #fff;
+}
+.bubble:hover{
+    background: rgb(1, 68, 1);
+    cursor: pointer;
+}
